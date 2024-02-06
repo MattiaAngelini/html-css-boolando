@@ -49,6 +49,29 @@
 }
 
 /*-------------------
+    TIPOGRAPHY
+-------------------*/
+
+ul {
+    list-style-type: none;
+  }
+
+ 
+* { font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;}
+
+/*-------------------
+       TAGS
+-------------------*/
+
+.green_tag {background-color: green;}
+
+.red_tag{background-color: red;}
+
+.green_tag, .red_tag {padding: 5px;}
+
+/*-------------------
     HEADER
 -------------------*/
 header {background-color: rgba(255,105,0,255);
@@ -71,24 +94,23 @@ header li {padding: 0 10px;
 }
 
 /*-------------------
-    TIPOGRAPHY
--------------------*/
-
-ul {
-    list-style-type: none;
-  }
-
- 
-* { font-family: "Roboto", sans-serif;
-    font-weight: 700;
-    font-style: normal;}
-
-
-/*-------------------
      MAIN
 -------------------*/
 
 main img {max-width: 100%;
           margin-top: 40px;
           padding: 10px;
+          ;
 }
+
+ main .col-33 {
+    position: relative;
+}
+
+.tags_container {
+    position: absolute;
+    left: 30px;
+    bottom: 40px;
+    color: white;
+}
+
