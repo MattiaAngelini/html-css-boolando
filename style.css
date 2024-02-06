@@ -52,6 +52,23 @@ ul {
 }
 
 /*-------------------
+        CARD
+-------------------*/
+
+
+.card .card-image-hover {
+    display: none;
+}
+
+.card:hover .card-image-default {
+    display: none;
+}
+
+.card:hover .card-image-hover {
+    display: block;
+}
+
+/*-------------------
        TAGS
 -------------------*/
 
