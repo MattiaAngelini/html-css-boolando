@@ -82,3 +82,13 @@ ul {
 * { font-family: "Roboto", sans-serif;
     font-weight: 700;
     font-style: normal;}
+
+
+/*-------------------
+     MAIN
+-------------------*/
+
+main img {max-width: 100%;
+          margin-top: 40px;
+          padding: 10px;
+}
