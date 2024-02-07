@@ -70,8 +70,8 @@ ul {
     display: none;
 }
 
-.hover_img:hover .card-image-hover {
-    display: block;   
+.hover_img:hover .card-image-hover { 
+    display: inline-block
 }
 
 .likes:hover {color: red;}
